@@ -1,0 +1,41 @@
+{
+    "cliente_id": 1,
+    "nome": "João Silva",
+    "endereco": "Rua A, 123",
+    "pedidos": [
+        {
+            "pedido_id": 1,
+            "data_pedido": "2023-01-01",
+            "produtos": [
+                {
+                    "produto_id": 1,
+                    "nome": "Produto A",
+                    "preco": 10.00,
+                    "quantidade": 2,
+                    "fornecedores": [
+                        {
+                            "fornecedor_id": 1,
+                            "nome": "Fornecedor X"
+                        },
+                        {
+                            "fornecedor_id": 2,
+                            "nome": "Fornecedor Y"
+                        }
+                    ]
+                },
+                {
+                    "produto_id": 2,
+                    "nome": "Produto B",
+                    "preco": 20.00,
+                    "quantidade": 1,
+                    "fornecedores": [
+                        {
+                            "fornecedor_id": 3,
+                            "nome": "Fornecedor Z"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
